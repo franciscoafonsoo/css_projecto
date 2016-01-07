@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="domain-model-CSS-EJB">
+        <wb-resource deploy-path="/" source-path="/ejbModule" tag="defaultRootSource"/>
+        <property name="java-output-path" value="/domain-model-CSS-EJB/build/classes"/>
+        <property name="ClientProject" value="domain-model-CSS-EJBClient"/>
+        <property name="ClientJARURI" value="domain-model-CSS-EJBClient.jar"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
+  <display-name>domain-model-CSS-EAR</display-name>
+  <module>
+    <web>
+      <web-uri>domain-model-CSS-WebClient.war</web-uri>
+      <context-root>domain-model-CSS-WebClient</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>domain-model-CSS-EJB.jar</ejb>
+  </module>
+</application>

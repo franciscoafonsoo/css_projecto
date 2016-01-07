@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="domain-model-CSS-EAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="domain-model-CSS-WebClient.war" deploy-path="/" handle="module:/resource/domain-model-CSS-WebClient/domain-model-CSS-WebClient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="domain-model-CSS-EJBClient.jar" deploy-path="/" handle="module:/resource/domain-model-CSS-EJBClient/domain-model-CSS-EJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="domain-model-CSS-EJB.jar" deploy-path="/" handle="module:/resource/domain-model-CSS-EJB/domain-model-CSS-EJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

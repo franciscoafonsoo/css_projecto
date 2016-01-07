@@ -1,0 +1,2 @@
+"{\"JBAS014671: Failed services\" => {\"jboss.persistenceunit.\\\"domain-model-CSS-EAR.ear/domain-model-CSS-EJB.jar#domain-model-CSS-EJB\\\"\" => \"org.jboss.msc.service.StartException in service jboss.persistenceunit.\\\"domain-model-CSS-EAR.ear/domain-model-CSS-EJB.jar#domain-model-CSS-EJB\\\": org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+    Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set\"}}"
